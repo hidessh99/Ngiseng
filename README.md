@@ -13,10 +13,9 @@ Update Ubuntu 18/20
 <pre><code>apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && sleep 2 && reboot</code></pre>
 Script Setup
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt upgrade && apt install -y bzip2 gzip coreutils screen curl unzip && wget -q https://raw.githubusercontent.com/wingshope/Ngiseng/main/main.sh && chmod +x main.sh && ./main.sh</code></pre>
-or
-<pre><code>apt install -y wget screen && wget -q https://raw.githubusercontent.com/wingshope/Ngiseng/main/setup2.sh && chmod +x setup2.sh && screen -S install ./setup2.sh</code></pre>
-or
-Update 2.0
+
+
+Update 2.0.1
 <pre><code>wget -q -O /usr/sbin/updatemenu "https://raw.githubusercontent.com/wingshope/Ngiseng/main/update/updatemenu.sh" && chmod +x /usr/sbin/updatemenu && updatemenu</code></pre>
 
 ### TESTED ON OS 
