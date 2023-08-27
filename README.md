@@ -72,6 +72,3 @@ Update 2.0
 
 ### BUG
 * Squid problem (off temporarily, openvpn off)
-
-### Credits
-- [Dharak36](https://github.com/dharak36/Xray-core)
